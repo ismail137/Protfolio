@@ -10,7 +10,7 @@
 
 
 header{
-    background-color:antiquewhite;
+    background-color:#f0f0f0;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -18,4 +18,24 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #3e6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.navigation a{
+    color:#3e6cf4;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.navigation a:hover{
+    color: #601cfc;
 }
