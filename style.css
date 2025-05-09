@@ -101,3 +101,52 @@ section{
     font-size: 1.7em;
     padding-right: 30px;
 }
+
+.title{
+    display :flex;
+    color: #3e6cf4;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width :17em;
+    box-shadow: 0 5px 25px rgb(1 1 1 /40%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+.icon{
+    color: #0a49f6;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #0a49f6;
+    font-size: 1.2em;
+   font-weight: 700;
+   margin: 12px;
+}
