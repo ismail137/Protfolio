@@ -150,3 +150,44 @@ section{
    font-weight: 700;
    margin: 12px;
 }
+
+.projects{
+    background-color: #000016;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+
+}
+
+.project-card:hover .project-img{
+    opacity: 0.9;
+}
+
+.project-image img{
+    width:100%;
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-catergory{
+    font-size: 0.8em;
+    color: black;
+}
